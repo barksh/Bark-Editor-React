@@ -1,6 +1,6 @@
 /**
  * @author WMXPY
- * @namespace BarkDesignReact
+ * @namespace BarkEditorReact
  * @description Index
  */
 
