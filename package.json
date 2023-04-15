@@ -2,27 +2,28 @@
   "name": "@barksh/bark-editor-react",
   "version": "1.0.0",
   "scripts": {
-    "dev": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
   },
   "dependencies": {
     "styled-components": "^5.3.9"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
-    "@storybook/addon-actions": "^6.5.14",
-    "@storybook/addon-essentials": "^6.5.14",
-    "@storybook/addon-interactions": "^6.5.14",
-    "@storybook/addon-links": "^6.5.14",
-    "@storybook/builder-vite": "^7.0.4",
-    "@storybook/react": "^6.5.14",
-    "@storybook/testing-library": "^0.0.13",
+    "@storybook/addon-actions": "^7.0.4",
+    "@storybook/addon-essentials": "^7.0.4",
+    "@storybook/addon-interactions": "^7.0.4",
+    "@storybook/addon-links": "^7.0.4",
+    "@storybook/react": "^7.0.4",
+    "@storybook/react-vite": "^7.0.4",
+    "@storybook/testing-library": "^0.1.0",
     "@sudoo/react-force": "^2.0.0",
     "@sudoo/react-force-dev": "^2.0.0",
     "@sudoo/triforce": "^3.11.0",
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^3.1.0",
     "babel-loader": "^9.1.0",
+    "storybook": "^7.0.4",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2",
     "vite": "^4.2.1"
