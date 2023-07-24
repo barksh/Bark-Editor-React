@@ -6,7 +6,7 @@
     "build": "storybook build"
   },
   "dependencies": {
-    "styled-components": "^5.3.9"
+    "styled-components": "^6.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
